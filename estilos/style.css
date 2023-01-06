@@ -30,7 +30,6 @@ main {
     border-radius: 20px;
 }
 
-
 #imagem {
     background-image: url(../imagens/pexels-lawlesscapture-13737660.jpg);
     background-position: center center;
@@ -117,3 +116,7 @@ label {
     left: 10px;
 }
 
+#ibotao_esqueci:hover {
+    background-color: rgb(82, 240, 216);
+    cursor: pointer;
+}
