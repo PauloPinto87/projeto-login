@@ -6,17 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <main>
         <section id="login">
             <div id="imagem">
-                Imagem
             </div>
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Sejá bem vindo(a). Faça login em sua conta para configurar o seu ambiente. Caso não seja cadastrado, <a href="">clique aqui</a>.</p>
-                <form action="login.php" method="post">
+                <form action="login.php" method="post" autocomplete="on">
+                    <p class="dados">
+                        <label for="inome">
+                            <i id="account_icon" class="material-icons">person</i>
+                        </label>
+                        <input type="text" name="nome" id="inome" placeholder=" seu e-mail">
+                        
+                    </p>
+                    <p class="dados">
+                        <label for="isenha">
+                            <i id="key_icon" class="material-icons">vpn_key</i>
+                        </label>
+                        <input type="password" name="senha" id="isenha" placeholder=" sua senha">
+                    </p>
+                    <p>
+                        <input type="submit" value="Entrar" id="ibotao_entrar">~
+                        <input type="reset" value="Esqueci a senha" id="ibotao_esqueci">
+                        
+                    </p>
+
 
                 </form>
             </div>

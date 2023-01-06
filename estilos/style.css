@@ -2,6 +2,118 @@
 
 /*
     Paleta de cores;
-    
-
+    #F0D797
+    #D453F0
 */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #572c74;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.342);
+
+    background-color: white;
+    width: 250px;
+    height: 510px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+
+#imagem {
+    background-image: url(../imagens/pexels-lawlesscapture-13737660.jpg);
+    background-position: center center;
+    width: 250px;
+    height: 198px;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+div > p {
+    text-align: justify;
+    font-size: 13px;
+    padding: 5px 10px;
+}
+
+input {
+    font-size: 15px;
+    background-color: rgb(161, 226, 215);
+    border: none;
+    border-radius: 5px;
+    height: 37px;
+    width: 178px;
+    position: relative;
+    left: 21px;
+    top: 2px;
+}
+
+p.dados {
+    background-color: #572c74;
+    width: 230px;
+    height: 41px;
+    margin: auto;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+label {
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+#account_icon {
+    color: aliceblue;
+}
+
+#key_icon {
+    color: aliceblue;
+}
+
+#ibotao_entrar {
+    position: relative;
+    left: 10px;
+    width: 230px;
+    height: 40px;
+    background-color: rgb(62, 165, 149);
+    margin-bottom: 5px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#ibotao_entrar:hover {
+    background-color: rgb(36, 94, 85);
+    cursor: pointer;
+}
+
+#ibotao_esqueci {
+    background-color: white;
+    border: 1px solid rgb(62, 165, 149);
+    color: rgb(37, 97, 88);
+    font-size: 16px;
+    width: 230px;
+    height: 40px;
+    border-radius: 5px;
+    position: relative;
+    left: 10px;
+}
+
